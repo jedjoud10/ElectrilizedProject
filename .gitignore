@@ -3,7 +3,10 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+<<<<<<< HEAD
 /Assets/PostProcessing*
+=======
+>>>>>>> parent of 2cadd02... Revert "Initial commit"
 /Assets/AssetStoreTools*
 
 # Visual Studio cache directory
