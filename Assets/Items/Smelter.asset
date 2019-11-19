@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Smelter
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: 7ce4c273f2896db41a628f87fa8c9e29, type: 3}
+  Model: {fileID: -5495902117074765545, guid: df0a8a8d7af844a4bb275b7dd004ffed, type: 3}
+  Mesh_Materials:
+  - {fileID: -462619751293710785, guid: df0a8a8d7af844a4bb275b7dd004ffed, type: 3}
+  - {fileID: 2100000, guid: 1128632434aaa8449a181c24977ccff3, type: 2}
+  - {fileID: 2100000, guid: 9f377c2b7e7459d4a9eafceb225b7846, type: 2}
+  - {fileID: 2100000, guid: 1fc024ca34b483041b369ed70c29719f, type: 2}
+  description: A thing that melts raw material into their metal form
+  Machine: {fileID: 1391190427296925655, guid: 129c9f85beb344a4a94cefdada228d7d, type: 3}
+  CameraFOV: -4
+  Item_Type: 3

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Transistor
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: dc1bc8b56db3b074e9aa989026f5a935, type: 3}
+  Model: {fileID: -5495902117074765545, guid: 6556ba684ae030344b921ded223787bb, type: 3}
+  Mesh_Materials:
+  - {fileID: -109556701520282750, guid: 6556ba684ae030344b921ded223787bb, type: 3}
+  - {fileID: 2100000, guid: 1fc024ca34b483041b369ed70c29719f, type: 2}
+  description: Some cool thing that alows electricity if you apply electricity to
+    it in a specific electrical way
+  Item_Type: 2

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Copper_Metal
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: 83945ff9250ce074bbb04500be07b7a1, type: 3}
+  Model: {fileID: -5495902117074765545, guid: da352ae493b3a5c4583837fda91a90a2, type: 3}
+  Mesh_Materials:
+  - {fileID: 2100000, guid: 1128632434aaa8449a181c24977ccff3, type: 2}
+  description: Ooh shiny metal
+  Item_Type: 1

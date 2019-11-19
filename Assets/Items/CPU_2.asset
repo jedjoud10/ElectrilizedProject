@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: CPU_2
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: d3c51c3464a4a134ca83e5943820ae5b, type: 3}
+  Model: {fileID: -5495902117074765545, guid: aa59747dd5dd770438170f8a1c79d576, type: 3}
+  Mesh_Materials:
+  - {fileID: 9150972116286264937, guid: aa59747dd5dd770438170f8a1c79d576, type: 3}
+  - {fileID: 2100000, guid: 1128632434aaa8449a181c24977ccff3, type: 2}
+  - {fileID: 2100000, guid: 1128632434aaa8449a181c24977ccff3, type: 2}
+  - {fileID: -1608562228189220361, guid: b26773e386704254497290615e76bff8, type: 3}
+  - {fileID: 2100000, guid: baa9529107fa95c42bc40d1bc9d257be, type: 2}
+  description: A type 2 CPU ! This one packs quite transistors
+  Item_Type: 2

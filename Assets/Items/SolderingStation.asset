@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: SolderingStation
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: 653d5549e61b2384e9ce0a69ca20438c, type: 3}
+  Model: {fileID: 4493585093827132993, guid: 3dc3527919b5b7f4082b8483e12db1db, type: 3}
+  Mesh_Materials:
+  - {fileID: 2100000, guid: 9e69cb8478c23b049a096440a9265152, type: 2}
+  - {fileID: -1935296954088666566, guid: d716704221a1e9946923c217ee7e9986, type: 3}
+  - {fileID: 2100000, guid: 9f377c2b7e7459d4a9eafceb225b7846, type: 2}
+  - {fileID: -7427543261303742177, guid: 3dc3527919b5b7f4082b8483e12db1db, type: 3}
+  - {fileID: -3310138042080061974, guid: 3dc3527919b5b7f4082b8483e12db1db, type: 3}
+  - {fileID: 2100000, guid: 1fc024ca34b483041b369ed70c29719f, type: 2}
+  description: A station that let's you solder stuff together
+  Machine: {fileID: 3664451112441739659, guid: 2eeb5da9c465572448a237b7798e597a, type: 3}
+  CameraFOV: -4
+  Item_Type: 3

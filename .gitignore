@@ -40,7 +40,3 @@ sysinfo.txt
 *.apk
 *.unitypackage
  
-#Other useless stuff
-*.unity
-*.prefab
-*.asset

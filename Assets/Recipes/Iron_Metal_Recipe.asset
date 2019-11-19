@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22381db284806ef44875fec8b2388b7a, type: 3}
+  m_Name: Iron_Metal_Recipe
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: a438652912d8d81408d51ec2ba50c87e, type: 2}
+  output: {fileID: 11400000, guid: d95af5a396cbba9418cf7cc868060ce5, type: 2}

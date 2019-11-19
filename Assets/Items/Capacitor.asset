@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Capacitor
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: 293367d6005d3974ebfa318deae76bb5, type: 3}
+  Model: {fileID: 2534964839176971238, guid: 501715650e6bac74c92f736d69c3e287, type: 3}
+  Mesh_Materials:
+  - {fileID: 165834516889388155, guid: 501715650e6bac74c92f736d69c3e287, type: 3}
+  - {fileID: 2100000, guid: 9f377c2b7e7459d4a9eafceb225b7846, type: 2}
+  description: This is a socking component (haha)
+  Machine: {fileID: 0}
+  Item_Type: 2

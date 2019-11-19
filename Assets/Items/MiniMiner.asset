@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: MiniMiner
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: 9bc3211f43d628a4096b0f70f88a8be9, type: 3}
+  Model: {fileID: -5495902117074765545, guid: 4293322032a9c8e4fb116ff0ac6d7340, type: 3}
+  Mesh_Materials:
+  - {fileID: 2100000, guid: 8be06aa90b1ae1942a7819373e9c0716, type: 2}
+  description: A single use smaller copy of the Miner, it only works underwater tough,
+    and there is a 1/2 chance it explodes, but hey it's pretty cheap and can give
+    you all the basic ores
+  Machine: {fileID: 8548466429480885224, guid: c2f54e6915a6c494dbff2ac476f84646, type: 3}
+  Item_Type: 3

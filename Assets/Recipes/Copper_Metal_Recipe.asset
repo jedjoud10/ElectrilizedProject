@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22381db284806ef44875fec8b2388b7a, type: 3}
+  m_Name: Copper_Metal_Recipe
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: 1be08d763cdd65944b628dd2b345edb6, type: 2}
+  output: {fileID: 11400000, guid: c7bc05d37164f1d4e877d2979da91e7f, type: 2}

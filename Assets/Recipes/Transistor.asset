@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22381db284806ef44875fec8b2388b7a, type: 3}
+  m_Name: Transistor
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: 7f4c863b5c23bbf4eb9084fb7b575c5c, type: 2}
+  - {fileID: 11400000, guid: 983c569970d236d4eafabc5563f13976, type: 2}
+  - {fileID: 0}
+  output: {fileID: 11400000, guid: 82cddde6a2c12f24e9ad096280b00e98, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Miner
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: d0720afeb04a93f49b1547e51ee06924, type: 3}
+  Model: {fileID: -5495902117074765545, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  Mesh_Materials:
+  - {fileID: 3715032906202108320, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: 8710441211348055678, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: 3864814338796019798, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: 9150972116286264937, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: -3519359056750487441, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: -109556701520282750, guid: 6556ba684ae030344b921ded223787bb, type: 3}
+  - {fileID: 165834516889388155, guid: 501715650e6bac74c92f736d69c3e287, type: 3}
+  - {fileID: -5952732642372658544, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: -1662629710119968375, guid: 6c17c8292e3a37947836735bbef7b70e, type: 3}
+  - {fileID: 2100000, guid: ef2f1c96056e4964c835074fa8c6732c, type: 2}
+  description: A thing that lets you mine stuff underground i think
+  Machine: {fileID: 8812460707266116891, guid: 6587eccee4eef0f4ca6f78f11f9299de, type: 3}
+  Item_Type: 3

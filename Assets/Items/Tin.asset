@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93864ae5acc30054ba127c971eb2df3f, type: 3}
+  m_Name: Tin
+  m_EditorClassIdentifier: 
+  icon_texture: {fileID: 2800000, guid: a308d0f0535682443b43fbd436956931, type: 3}
+  Model: {fileID: 289301614986012343, guid: fd1f8147cb0d848469769940d5f30bb2, type: 3}
+  Mesh_Materials:
+  - {fileID: 2100000, guid: 208e069cbdffb814683494aa784314c6, type: 2}
+  description: Some tin ore, you can make things with this i think
+  Item_Type: 0
