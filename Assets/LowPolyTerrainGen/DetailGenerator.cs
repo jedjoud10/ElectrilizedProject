@@ -5,8 +5,8 @@ using UnityEngine;
 public class DetailGenerator : MonoBehaviour
 {
     private SphereCollider spcollider;
-    public GameObject water;
-    public float overalldensity;
+    [Tooltip("The terrain collider you want the detail to spawn on")]
+    public MeshCollider terraincollider;
     [Tooltip("The details")]
     public Detail[] details;
     private RaycastHit hit;
@@ -27,10 +27,6 @@ public class DetailGenerator : MonoBehaviour
         public GameObject foliage;
         [Tooltip("Use a randomly picked rotation ?")]
         public bool randomrotation;
-        [Tooltip("Can spawn underwater ?")]
-        public bool underwater;
-        [Tooltip("What biome ID should this spawn in ?")]
-        public int BiomeID; 
     }
     // Start is called before the first frame update
     void Start()
@@ -39,11 +35,10 @@ public class DetailGenerator : MonoBehaviour
     }
     public void generate()
     {
-        water.GetComponent<MeshCollider>().enabled = true;
         spcollider = GetComponent<SphereCollider>();
         foreach (var detail in details)
         {
-            for (int i = 0; i < detail.num * overalldensity; i++)
+            for (int i = 0; i < detail.num; i++)
             {
                 Vector2 pos = new Vector2(Random.Range(spcollider.bounds.min.x, spcollider.bounds.max.x), Random.Range(spcollider.bounds.min.z, spcollider.bounds.max.z));
                 if (Mathf.PerlinNoise(pos.x * detail.scale, pos.y * detail.scale) > detail.density)
@@ -54,16 +49,8 @@ public class DetailGenerator : MonoBehaviour
                     {
                         if (Vector3.Dot(hit.normal, Vector3.up) > detail.normalrange.x && Vector3.Dot(hit.normal, Vector3.up) < detail.normalrange.y)
                         {
-                            if (hit.point.y <= water.gameObject.transform.position.y)
+                            if (hit.collider.gameObject == terraincollider.gameObject)
                             {
-                                continue;                                
-                            }
-                            if (hit.collider.gameObject.GetComponent<TerrainChunk>() != null)
-                            {
-                                if (hit.collider.gameObject.GetComponent<TerrainChunk>().myBiome != detail.BiomeID)
-                                {
-                                    continue;
-                                }
                                 Quaternion rot = Quaternion.Euler(Quaternion.LookRotation(Vector3.forward, hit.normal).eulerAngles);
                                 if (detail.randomrotation)
                                 {
@@ -84,7 +71,6 @@ public class DetailGenerator : MonoBehaviour
                 }
             }
         }
-        water.GetComponent<MeshCollider>().enabled = false;
     }
 
 }

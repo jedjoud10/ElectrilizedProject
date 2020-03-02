@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class PauseMenuScript : MonoBehaviour
 {
     public GameObject pausemenu;
-    public LODTerrain lodterrain;
     public Slider scaleslidergui;
     public Slider chunkdistanceslider;
     public Slider qualityslider;
@@ -43,11 +42,6 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         gameObject.GetComponent<PlayerController>().canMove = false;
-    }
-    public void ReloadChunksDistance()
-    {
-        lodterrain.MaxDistance = chunkdistanceslider.value;
-        lodterrain.ReloadChunksDistance();
     }
     public void ChangeQuality()
     {
